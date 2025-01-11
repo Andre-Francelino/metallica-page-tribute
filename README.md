@@ -24,6 +24,8 @@ O projeto utiliza **media queries** para adaptar o layout em diferentes tamanhos
 - **Dispositivos até 768px (Tablets)**: Ajuste no tamanho das fontes e margens para melhorar a leitura.
 - **Dispositivos até 480px (Smartphones)**: Redução do tamanho das fontes e otimização de espaçamentos para telas menores.
 
+## Deploy do projeto no Netlify
+https://met81tributehomepage.netlify.app/
 
 ## 📝 Como Executar
 
