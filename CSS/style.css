@@ -1,0 +1,153 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* header */
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 50px;
+}
+
+.main-paragraph {
+    font-family: cursive;
+}
+
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-defination {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+/* Biografia */
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Citações */
+.quotes-container {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+/* Curiosidades */
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    height: auto;
+    line-height: 1.5;
+}
+
+/* Imagem bold */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Imagens das Formações */
+.formation-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.formation-description {
+    font-size: 11px;
+    font-family:'Courier New';
+}
+
+.band-members {
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .quotes-container blockquote {
+        font-size: 24px;
+    }
+
+    .image-defination {
+        max-width: 100%;
+    }
+
+    .formation-image {
+        max-width: 100%;
+    }
+
+    .curiosities-container li {
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 28px;
+    }
+
+    .main-paragraph {
+        font-size: 14px;
+    }
+
+    .quotes-container {
+        padding: 20px;
+    }
+
+    .quotes-container blockquote {
+        font-size: 18px;
+    }
+
+    .formation-description {
+        font-size: 10px;
+    }
+}
+
